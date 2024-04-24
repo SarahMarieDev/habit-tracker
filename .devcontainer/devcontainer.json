@@ -1,5 +1,5 @@
 {
-    "name": "SaaS App",
+    "name": "Habit Tracker",
     "dockerComposeFile": ["../docker/docker-compose.yaml"],
     "service": "dev-env",
     "workspaceFolder": "/workspace",
