@@ -1,0 +1,15 @@
+/workspace/GoodHabits.Database/bin/Debug/net8.0/GoodHabits.Database.deps.json
+/workspace/GoodHabits.Database/bin/Debug/net8.0/GoodHabits.Database.runtimeconfig.json
+/workspace/GoodHabits.Database/bin/Debug/net8.0/GoodHabits.Database.dll
+/workspace/GoodHabits.Database/bin/Debug/net8.0/GoodHabits.Database.pdb
+/workspace/GoodHabits.Database/obj/Debug/net8.0/GoodHabits.Database.csproj.AssemblyReference.cache
+/workspace/GoodHabits.Database/obj/Debug/net8.0/GoodHabits.Database.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/GoodHabits.Database/obj/Debug/net8.0/GoodHabits.Database.AssemblyInfoInputs.cache
+/workspace/GoodHabits.Database/obj/Debug/net8.0/GoodHabits.Database.AssemblyInfo.cs
+/workspace/GoodHabits.Database/obj/Debug/net8.0/GoodHabits.Database.csproj.CoreCompileInputs.cache
+/workspace/GoodHabits.Database/obj/Debug/net8.0/GoodHabits.Database.sourcelink.json
+/workspace/GoodHabits.Database/obj/Debug/net8.0/GoodHabits.Database.dll
+/workspace/GoodHabits.Database/obj/Debug/net8.0/refint/GoodHabits.Database.dll
+/workspace/GoodHabits.Database/obj/Debug/net8.0/GoodHabits.Database.pdb
+/workspace/GoodHabits.Database/obj/Debug/net8.0/GoodHabits.Database.genruntimeconfig.cache
+/workspace/GoodHabits.Database/obj/Debug/net8.0/ref/GoodHabits.Database.dll
