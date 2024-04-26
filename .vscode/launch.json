@@ -14,7 +14,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-habit-service",
-            "program": "${workspaceFolder}/bin/Debug/net8.0/GoodHabits.HabitService.dll",
+            "program": "${workspaceFolder}/GoodHabits.HabitService/bin/Debug/net8.0/GoodHabits.HabitService.dll",
             "args": [],
             "cwd": "${workspaceFolder}/GoodHabits.HabitService",
             "stopAtEntry": false,

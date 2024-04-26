@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GoodHabits.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4227b65c556bf011d7bf77d09c49d07468963926")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24ceaeb00a2b57bf762fc19c0275fb265eb4e85f")]
 [assembly: System.Reflection.AssemblyProductAttribute("GoodHabits.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GoodHabits.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
