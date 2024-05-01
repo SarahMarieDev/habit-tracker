@@ -10,7 +10,7 @@ public class HabitService : IHabitService
     public HabitService(GoodHabitsDbContext dbContext) => _dbContext = dbContext;
     public async Task<Habit> Create(string name, string description)
     {
-        var habit = _dbContext.Habits!.Add(new HabitService {Name = name, Description = description}).Entity;
+        var habit = _dbContext.Habits!.Add(new Habit {Name = name, Description = description}).Entity;
         await _dbContext.SaveChangesAsync();
         return habit;
     }

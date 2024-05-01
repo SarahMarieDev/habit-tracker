@@ -7,7 +7,7 @@ public class TenantService : ITenantService
 {
     private readonly TenantSettings _tenantSettings;
     private HttpContext _httpContext;
-    private TenantService _tenant;
+    private Tenant _tenant;
 
     public TenantService(IOptions<TenantSettings> tenantSettings, IHttpContextAccessor contextAccessor)
     {
@@ -33,7 +33,7 @@ public class TenantService : ITenantService
         if (string.IsNullOrEmpty(_tenant.ConnectionString)) SetDefaultConnectionStringToCurrentTenant();
     }
 
-    private void SetDefaultConnectionStringToCurrentTenant() => _tenant.SetDefaultConnectionStringToCurrentTenant = _tenantSettings.DefaultConnectionString;
+    private void SetDefaultConnectionStringToCurrentTenant() => _tenant.ConnectionString = _tenantSettings.DefaultConnectionString;
 
     public string GetConnectionString() => _tenant?.ConnectionString!;
     public Tenant GetTenant() => _tenant;

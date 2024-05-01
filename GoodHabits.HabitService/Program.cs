@@ -8,7 +8,7 @@ builder.Services.AddControllers().AddNewtonsoftJson();
 builder.Services.AddSwaggerGen(c => c.SwaggerDoc("v1", new OpenApiInfo { Title = "GoodHabits.HabitService", Version = "v1" }));
 builder.Services.AddTransient<ITenantService, TenantService>();
 builder.Services.AddTransient<IHabitService, HabitService>();
-builder.Service.Configure<TenantSettings>(builder.Configuration.GetSection(nameop(TenantSettings)));
+builder.Services.Configure<TenantSettings>(builder.Configuration.GetSection(nameof(TenantSettings)));
 builder.Services.AddAndMigrateDatabases(builder.Configuration);
 builder.Services.AddEndpointsApiExplorer();
 
