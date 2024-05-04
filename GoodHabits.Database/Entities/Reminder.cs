@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GoodHabits.Database.Entities;
 
+[Index(nameof(Id))]
 public class Reminder
 {
     public int Id { get; set; }
