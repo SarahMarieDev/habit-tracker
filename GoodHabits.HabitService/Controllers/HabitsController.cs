@@ -1,3 +1,4 @@
+using AutoMapper;
 using GoodHabits.HabitService.Dtos;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,17 +7,19 @@ namespace GoodHabits.HabitService.Controllers;
 [Route("api/[controller]")]
 public class HabitsController : ControllerBase
 {
-    private readonly ILogger<HabitsController> _logger;    private readonly IHabitService _habitService;
+    private readonly ILogger<HabitsController> _logger;    
+    private readonly IHabitService _habitService;
+    private readonly IMapper _mapper;
 
     public HabitsController(
         ILogger<HabitsController> logger,
-        IHabitService goodHabitsService
-
+        IHabitService goodHabitsService,
+        IMapper mapper
         )
     {
         _logger = logger;
         _habitService = goodHabitsService;
-
+        _mapper = mapper;
     }
     [HttpGet("{id}")]
     public async Task<IActionResult> GetAsync(int id) => Ok(await _habitService.GetById(id));
