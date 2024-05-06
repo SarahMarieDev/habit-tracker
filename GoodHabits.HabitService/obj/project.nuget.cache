@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "0236AcbCDNA+EcgySdj9jRsWzcG9Ocl/YWJsnwkyvQltA0C6qoiUqlNq4YZvbo8/aGRrQNqkSgv+sNizJHv3cw==",
+  "dgSpecHash": "3jTFpMNYh9yV4QzGRqCJQyFRBWk7ygLicfEV07zLhEOeT7aejiO7o2/l4t9U9C7znGSGYCFD7IfcFwJbwI+Lrw==",
   "success": true,
   "projectFilePath": "/workspace/GoodHabits.HabitService/GoodHabits.HabitService.csproj",
   "expectedPackageFiles": [
+    "/root/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/root/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/root/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/root/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
     "/root/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",

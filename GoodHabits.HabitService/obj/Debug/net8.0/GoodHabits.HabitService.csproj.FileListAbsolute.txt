@@ -8,6 +8,8 @@
 /workspace/GoodHabits.HabitService/bin/Debug/net8.0/Azure.Core.dll
 /workspace/GoodHabits.HabitService/bin/Debug/net8.0/Azure.Identity.dll
 /workspace/GoodHabits.HabitService/bin/Debug/net8.0/Humanizer.dll
+/workspace/GoodHabits.HabitService/bin/Debug/net8.0/Microsoft.AspNetCore.JsonPatch.dll
+/workspace/GoodHabits.HabitService/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 /workspace/GoodHabits.HabitService/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
 /workspace/GoodHabits.HabitService/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
 /workspace/GoodHabits.HabitService/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
@@ -33,6 +35,8 @@
 /workspace/GoodHabits.HabitService/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll
 /workspace/GoodHabits.HabitService/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
 /workspace/GoodHabits.HabitService/bin/Debug/net8.0/Mono.TextTemplating.dll
+/workspace/GoodHabits.HabitService/bin/Debug/net8.0/Newtonsoft.Json.dll
+/workspace/GoodHabits.HabitService/bin/Debug/net8.0/Newtonsoft.Json.Bson.dll
 /workspace/GoodHabits.HabitService/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
 /workspace/GoodHabits.HabitService/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /workspace/GoodHabits.HabitService/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -138,7 +142,5 @@
 /workspace/GoodHabits.HabitService/obj/Debug/net8.0/GoodHabits.HabitService.pdb
 /workspace/GoodHabits.HabitService/obj/Debug/net8.0/GoodHabits.HabitService.genruntimeconfig.cache
 /workspace/GoodHabits.HabitService/obj/Debug/net8.0/ref/GoodHabits.HabitService.dll
-/workspace/GoodHabits.HabitService/bin/Debug/net8.0/Microsoft.AspNetCore.JsonPatch.dll
-/workspace/GoodHabits.HabitService/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
-/workspace/GoodHabits.HabitService/bin/Debug/net8.0/Newtonsoft.Json.dll
-/workspace/GoodHabits.HabitService/bin/Debug/net8.0/Newtonsoft.Json.Bson.dll
+/workspace/GoodHabits.HabitService/bin/Debug/net8.0/AutoMapper.dll
+/workspace/GoodHabits.HabitService/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
