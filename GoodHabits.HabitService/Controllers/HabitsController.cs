@@ -22,9 +22,9 @@ public class HabitsController : ControllerBase
         _mapper = mapper;
     }
     [HttpGet("{id}")]
-    public async Task<IActionResult> GetAsync(int id) => Ok(await _habitService.GetById(id));
+    public async Task<IActionResult> GetAsync(int id) => Ok(_mapper.Map<HabitDto>(await _habitService.GetById(id)));
     [HttpGet]
-    public async Task<IActionResult> GetAsync() => Ok(await _habitService.GetAll());
+    public async Task<IActionResult> GetAsync() => Ok(_mapper.Map<ICollection<HabitDto>>(await _habitService.GetAll()));
     [HttpPost]
     public async Task<IActionResult> CreateAsync(CreateHabitDto request) => Ok(await _habitService.Create(request.Name, request.Description));
 }
