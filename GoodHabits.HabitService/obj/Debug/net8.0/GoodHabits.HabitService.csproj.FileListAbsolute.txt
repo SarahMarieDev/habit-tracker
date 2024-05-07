@@ -5,6 +5,8 @@
 /workspace/GoodHabits.HabitService/bin/Debug/net8.0/GoodHabits.HabitService.runtimeconfig.json
 /workspace/GoodHabits.HabitService/bin/Debug/net8.0/GoodHabits.HabitService.dll
 /workspace/GoodHabits.HabitService/bin/Debug/net8.0/GoodHabits.HabitService.pdb
+/workspace/GoodHabits.HabitService/bin/Debug/net8.0/AutoMapper.dll
+/workspace/GoodHabits.HabitService/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /workspace/GoodHabits.HabitService/bin/Debug/net8.0/Azure.Core.dll
 /workspace/GoodHabits.HabitService/bin/Debug/net8.0/Azure.Identity.dll
 /workspace/GoodHabits.HabitService/bin/Debug/net8.0/Humanizer.dll
@@ -142,5 +144,3 @@
 /workspace/GoodHabits.HabitService/obj/Debug/net8.0/GoodHabits.HabitService.pdb
 /workspace/GoodHabits.HabitService/obj/Debug/net8.0/GoodHabits.HabitService.genruntimeconfig.cache
 /workspace/GoodHabits.HabitService/obj/Debug/net8.0/ref/GoodHabits.HabitService.dll
-/workspace/GoodHabits.HabitService/bin/Debug/net8.0/AutoMapper.dll
-/workspace/GoodHabits.HabitService/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
