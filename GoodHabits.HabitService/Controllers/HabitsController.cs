@@ -29,7 +29,12 @@ public class HabitsController : ControllerBase
     [HttpGet]
     public async Task<IActionResult> GetAsync() => Ok(_mapper.Map<ICollection<HabitDto>>(await _habitService.GetAll()));
     [HttpPost]
-    public async Task<IActionResult> CreateAsync(CreateHabitDto request) => Ok(await _habitService.Create(request.Name, request.Description));
+    public async Task<IActionResult> CreateAsync(CreateHabitDto request) 
+    {
+        var habit = await _habitService.Create(request.Name, request.Description);
+        var HabitDto = _mapper.Map<HabitDto>(habit);
+        return CreatedAtAction("Get", "Habits", new { id = HabitDto.Id }, HabitDto);
+    }
     [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteAsync(int id)
     {
