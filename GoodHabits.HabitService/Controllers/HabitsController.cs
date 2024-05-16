@@ -25,11 +25,17 @@ public class HabitsController : ControllerBase
         _mapper = mapper;
     }
     [HttpGet("{id}")]
-    public async Task<IActionResult> GetAsync(int id) => Ok(_mapper.Map<HabitDto>(await _habitService.GetById(id)));
+    public async Task<IActionResult> GetAsync(int id)
+    {
+        var habit = await _habitService.GetById(id);
+        if (habit == null) return NotFound();
+        return Ok(_mapper.Map<HabitDto>(await _habitService.GetById(id)));
+    }
+
     [HttpGet]
     public async Task<IActionResult> GetAsync() => Ok(_mapper.Map<ICollection<HabitDto>>(await _habitService.GetAll()));
     [HttpPost]
-    public async Task<IActionResult> CreateAsync(CreateHabitDto request) 
+    public async Task<IActionResult> CreateAsync(CreateHabitDto request)
     {
         var habit = await _habitService.Create(request.Name, request.Description);
         var HabitDto = _mapper.Map<HabitDto>(habit);

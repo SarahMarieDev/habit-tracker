@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "GoodHabits.Client",
   "resources": {
-    "hash": "sha256-SPsNDPvEGMIB5TBulperIpRJxCkNPQM33XyqWNS7y+c=",
+    "hash": "sha256-SyLWmJYcMeNRVqiH18fZ7ZOBmOWx8hgfb37ZbHhf+AI=",
     "jsModuleNative": {
       "dotnet.native.8.0.3.thpb1v50q4.js": "sha256-D4sYBYmDfH/YekgYRgX959/2RG6k28sJSHmcsn+iikk="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-/xjZuJwCmantx5vGyH5ZZ8keySSTeu+YHKQRJbZzcuM=",
       "netstandard.wasm": "sha256-vuFKmCGJbyv85DrzI6S1ZvCikuhIllH6hqbXIL+fUAA=",
       "System.Private.CoreLib.wasm": "sha256-SZkozEDkHEFN0VaDmhl2HOenGaqTOmHqEGkraz3Aejc=",
-      "GoodHabits.Client.wasm": "sha256-tEyQ0Uteh2uv6uTi97zrSrmEGh4rC+qYgwbMgj4BWZo="
+      "GoodHabits.Client.wasm": "sha256-0dWlewFke2+xsuvq+aIvjMWHuphImv2l0QZF1P1lBak="
     },
     "pdb": {
-      "GoodHabits.Client.pdb": "sha256-VjOyAl+M4icCtJj9Ie0gfqJJFRSj4M/Iq85OOGp4OiU="
+      "GoodHabits.Client.pdb": "sha256-Loty192ak4esKb94sOgpFdrYaoFywjySPnZLxU6U0z4="
     }
   },
   "cacheBootResources": true,
