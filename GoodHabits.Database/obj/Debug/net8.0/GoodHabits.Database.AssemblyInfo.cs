@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GoodHabits.Database")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7377455001d603924edc4c1c77d05c278992136f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4a2cd4f2120df7ae5c6405b9cd0e7f75e736412")]
 [assembly: System.Reflection.AssemblyProductAttribute("GoodHabits.Database")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GoodHabits.Database")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

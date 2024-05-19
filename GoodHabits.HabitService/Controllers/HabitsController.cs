@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace GoodHabits.HabitService.Controllers;
 [ApiController]
 [Route("api/[controller]")]
+[Route("api/v{version:apiVersion}/[controller]")]
+[ApiVersion("1.0")]
 public class HabitsController : ControllerBase
 {
     private readonly ILogger<HabitsController> _logger;
@@ -24,6 +26,14 @@ public class HabitsController : ControllerBase
         _habitService = goodHabitsService;
         _mapper = mapper;
     }
+
+[MapToApiVersion("1.0")]
+    [HttpGet("version")]
+    public virtual async Task<IActionResult> GetVersion()
+    {
+        return Ok("Response from version 1.0");
+    }
+
     [HttpGet("{id}")]
     public async Task<IActionResult> GetAsync(int id)
     {
